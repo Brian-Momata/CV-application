@@ -1,0 +1,31 @@
+.general-info, .educational-exp, .practical-exp {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #2b2b2b;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea,
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+}
+.practical-exp textarea {
+  resize: vertical;
+}
